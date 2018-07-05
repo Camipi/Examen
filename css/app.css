@@ -240,8 +240,20 @@ body {
   padding-bottom: 5%;
 }
 
+/*
+.footer {
+	.col-4 {
+		float: left;
+	}
+
+	.col-8 {
+		float: right;
+	}
+}
+*/
+
 iframe {
-  margin-bottom: 5%;
+  padding-top: 10%;
 }
 
 .row h4 {
