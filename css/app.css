@@ -316,6 +316,18 @@ iframe {
   color: #666666;
 }
 
+@media screen and (max-width: 768px) {
+  .header_noticias h1 {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header_noticias h1 {
+    margin-top: 40%;
+  }
+}
+
 .articulo {
   margin-bottom: 10vh;
 }
@@ -386,5 +398,17 @@ iframe {
           justify-content: center;
   padding-top: 3%;
   padding-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .header_nosotros h1 {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header_nosotros h1 {
+    margin-top: 40%;
+  }
 }
 
