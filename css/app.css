@@ -219,3 +219,39 @@ body {
   -webkit-box-shadow: none;
 }
 
+.row h2 {
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+iframe {
+  height: 300px;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.row .col-4 {
+  margin-right: 5%;
+}
+
+.row h4 {
+  line-height: .5;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.row p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-bottom: 3%;
+}
+
+.networks i {
+  font-size: 2em;
+  margin-right: 4%;
+}
+
+.footer a {
+  color: #FFFFFF;
+}
+
