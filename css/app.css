@@ -21,13 +21,14 @@ body {
 }
 
 .logo {
-  max-width: 300px;
-  margin-left: 10vh;
+  max-width: 100px;
+  margin-left: 20vh;
+  margin-top: 2vh;
 }
 
 .navbar-right {
-  margin-top: 1%;
-  margin-right: 10vh;
+  margin-top: 5vh;
+  margin-right: 20vh;
 }
 
 .navbar-default .navbar-nav > li > a {
