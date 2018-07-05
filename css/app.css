@@ -1,13 +1,30 @@
-body {
-  background: black;
-  font-size: 30px;
+.navbar {
+  margin-bottom: 0;
+  border-bottom: solid 5px #2358BD;
+  -webkit-box-shadow: 0px 3px 5px #00000036;
+          box-shadow: 0px 3px 5px #00000036;
+  border-radius: 0;
+  background-color: #FFFFFF;
+  background-image: none;
+  background-image: none;
+  background-image: none;
 }
 
-.container {
-  background: black;
+.navbar-header {
+  height: 80px;
 }
 
-.container p {
-  font-size: 40px;
+.logo {
+  max-width: 300px;
+  margin-left: 10vh;
+}
+
+.navbar-right {
+  margin-top: 1%;
+  margin-right: 10vh;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #2358BD;
 }
 
