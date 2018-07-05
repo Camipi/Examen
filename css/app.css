@@ -197,7 +197,6 @@ body {
 }
 
 .footer h2 {
-  padding-top: 5%;
   text-align: center;
   color: #FFFFFF;
   font-weight: 700;
@@ -240,18 +239,6 @@ body {
   padding-bottom: 5%;
 }
 
-/*
-.footer {
-	.col-4 {
-		float: left;
-	}
-
-	.col-8 {
-		float: right;
-	}
-}
-*/
-
 iframe {
   padding-top: 10%;
 }
@@ -274,6 +261,13 @@ iframe {
 
 .footer a {
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  iframe {
+    width: 250px;
+    height: 200px;
+  }
 }
 
 /*Nosotros*/
@@ -322,11 +316,6 @@ iframe {
   color: #808080;
 }
 
-.articulo .col-8 {
-  padding-left: 20vh;
-  padding-right: 20vh;
-}
-
 .author {
   padding-top: 5vh;
   paddin-bottom: 15vh;
@@ -335,20 +324,6 @@ iframe {
 .date i {
   margin-right: 1.5%;
   font-size: 1.2em;
-}
-
-@media screen and (max-width: 320px) {
-  .articulo .col-8 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .articulo .col-8 {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 .header_nosotros {
