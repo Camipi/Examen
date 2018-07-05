@@ -318,3 +318,27 @@ iframe {
   font-size: 1.2em;
 }
 
+.header_nosotros {
+  background-image: url(../images/portada_4.jpg?073dbe46cf9638c3ca1a240f2f8153c9);
+  background-size: cover;
+  margin-top: 12vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.nosotros h2 {
+  color: #0060A2;
+  font-weight: 700;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.header_nosotros h1 {
+  font-weight: 700;
+  color: #0060A2;
+}
+
+.header_nosotros p {
+  color: #666666;
+}
+
