@@ -36,9 +36,8 @@ body {
 }
 
 .header {
-  background-image: url(../images/portada.jpg?ad70db08d161af5e69472b441c6578bf);
+  background-image: url(../images/portada_3.jpg?41d5b6df9503a9d886dafde17f3235d5);
   background-size: cover;
-  height: 600px;
 }
 
 .header h1 {
@@ -55,6 +54,7 @@ body {
 .header p {
   color: #666666;
   margin-top: 5vh;
+  margin-bottom: 12vh;
   text-align: left;
   margin-left: 20vh;
   font-size: 16px;
@@ -258,4 +258,12 @@ iframe {
 }
 
 /*Nosotros*/
+
+.header_noticias {
+  background-image: url(../images/portada_2.jpg?a40ab49970096cbb0d7f754460e50b36);
+  background-size: cover;
+  margin-top: 12vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 
