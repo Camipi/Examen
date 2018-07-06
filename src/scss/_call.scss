@@ -1,0 +1,99 @@
+.call {
+	background-color: #E73F3F;
+	box-shadow: 0px 3px 5px #00000036;
+}
+
+.call__left-1 {
+	padding-top: 10%;
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 3em;
+	Font-weight: 700;
+	line-height: .5;
+}
+
+.call__left-2 {
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 2rem;
+}
+
+.call__right {
+	padding-top: 12%;
+	color: #FFFFFF;
+	text-align: right;
+	font-size: 3em;
+	font-weight: 800;
+}
+
+.row {
+	padding-top: .3%;
+	padding-bottom: .3%;
+}
+
+.call .img-responsive {
+	max-width: 100%;
+}
+
+
+
+$break-medium: 768px; 
+
+.call__right {
+	@media screen and (max-width: $break-medium) {
+    	font-size: 2.5em;
+    	text-align: left; 
+    	padding-top: 0;
+  	}
+}
+
+.call .img-responsive {
+	@media screen and (max-width: $break-medium) {
+		max-width: 100%;
+	}
+}
+
+.call__left-1 {
+	@media screen and (max-width: $break-medium) {
+		text-align: left;
+	}
+}
+
+.call__left-2 {
+	@media screen and (max-width: $break-medium) {
+		text-align: left;
+	}
+}
+
+
+
+$break-small: 320px; 
+
+.call__right {
+	@media screen and (max-width: $break-small) {
+    	font-size: 2.5em;
+    	text-align: center; 
+    	padding-top: 0;
+  	}
+}
+
+.call .img-responsive {
+	@media screen and (max-width: $break-small) {
+		max-width: 100%;
+	}
+}
+
+.call__left-1 {
+	@media screen and (max-width: $break-small) {
+		text-align: center;
+		line-height: 1;
+	}
+}
+
+.call__left-2 {
+	@media screen and (max-width: $break-small) {
+		text-align: center;
+	}
+}
+
+

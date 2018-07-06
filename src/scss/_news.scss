@@ -1,0 +1,37 @@
+.header_noticias {
+	background-image: url(../images/portada_2.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 12vh;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.header_noticias h1 {
+	font-weight: 700;
+	color: #7E45D3;
+}
+
+.header_noticias p {
+	color: #666666;
+}
+
+
+
+$break-medium: 768px; 
+
+.header_noticias h1 {
+	@media screen and (max-width: $break-medium) {
+    	margin-top: 10%;
+  }
+}
+
+
+$break-small: 320px; 
+
+.header_noticias h1 {
+	@media screen and (max-width: $break-small) {
+    	margin-top: 40%;
+  }
+}
+
